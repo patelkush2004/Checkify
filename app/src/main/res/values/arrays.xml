@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="motivational_quotes">
+
+        <item>“Whatever you plan on doing tomorrow, do it today. Whatever you plan on doing today do it right now”</item>
+        <item>"If you want something you never had, you have to be willing to do something you’ve never done."</item>
+        <item>"What you do makes a difference, and you have to decide what kind of difference you want to make."</item>
+        <item>"If it’s important, you’ll find a way. If not, you’ll find an excuse".</item>
+        <item>"The secret to getting things done is to act."</item>
+        <item>"Focus on being productive instead of being busy."</item>
+        <item>"Without hustle, talent will only carry you so far."</item>
+        <item>"You can’t be the person at the top of the water slide over thinking it, you have to go down the chute."</item>
+        <item>"You see, in life, lots of people know what to do, but few people actually do what they know. Knowing is not enough! You must take action."</item>
+        <item>"Life is short, do stuff that matters."</item>
+        <item>" It always seems impossible till it’s done."</item>
+        <item>"Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort."</item>
+        <item>"Amateurs sit and wait for inspiration, the rest of us just get up and go to work.""</item>
+        <item>"If you spend too much time thinking about a thing, you’ll never get it done.""</item>
+        <item>"Procrastination is opportunity's assassin."</item>
+        <item>"Until we can manage time, we can’t manage anything else."</item>
+        <item>"Only put off until tomorrow what you are willing to die having left undone."</item>
+        <item>"While others were dreaming about it, I was getting it done."</item>
+        <item>"If you end your day feeling like you got nothing done, it's because you weren't working: you were busy, not productive."</item>
+
+
+
+    </string-array>
+    
+</resources>

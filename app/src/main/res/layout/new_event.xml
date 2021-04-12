@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f9f0fb">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:id="@+id/eventname"
+        android:hint="Type Event"
+        android:textColor="#000000"
+        android:inputType="textShortMessage"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/bubbler_one"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/time"
+            android:layout_margin="10dp"
+            android:id="@+id/seteventtime"/>
+
+        <TextView
+            android:id="@+id/eventtime"
+            android:layout_width="303dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bubbler_one"
+            android:gravity="center"
+            android:text="00:00 AM"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:fontFamily="@font/bubbler_one"
+        android:text="Add Event"
+        android:textAllCaps="false" />
+
+</LinearLayout>

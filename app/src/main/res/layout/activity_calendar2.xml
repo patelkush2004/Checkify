@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_custom_calendar"
+    android:background="#e7fdfc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#e7fdfc"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/previousbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@mipmap/previous" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="3"
+            android:fontFamily="@font/bubbler_one"
+            android:gravity="center"
+            android:id="@+id/current_Date"
+            android:text="CurrentDate"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="27dp" />
+
+        <ImageButton
+            android:id="@+id/nextbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@mipmap/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f9f0fb"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cabin_medium"
+            android:gravity="center"
+            android:text="Sun"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cabin_medium"
+            android:gravity="center"
+            android:text="Mon"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cabin_medium"
+            android:gravity="center"
+            android:text="Tue"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cabin_medium"
+            android:gravity="center"
+            android:text="Wed"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cabin_medium"
+            android:gravity="center"
+            android:text="Thu"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cabin_medium"
+            android:gravity="center"
+            android:text="Fri"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/cabin_medium"
+            android:gravity="center"
+            android:text="Sat"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridview"
+        android:numColumns="7"></GridView>
+
+</LinearLayout>
+
